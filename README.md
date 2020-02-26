@@ -34,52 +34,52 @@ To make Figure 1 (a)(b) in the paper, run
 python3  run_and_plot.py --FDRrange  1,2,3,4,5,6 
 ```
  
-To make figure  1 (c)(d) in the paper, run 
+To make Figure  1 (c)(d) in the paper, run 
 ```
 python3  run_and_plot.py --FDRrange  5 --plot-style 2 
 ```
  
-To make figure  1 (e)(f) in the paper, run 
+To make Figure  1 (e)(f) in the paper, run 
 ```
 python3  run_and_plot.py --FDRrange  6 --plot-style 2 
 ```
 
-To make figure 2 (a)(b) in the paper, run
+To make Figure 2 (a)(b) in the paper, run
 ```
 python3  run_and_plot.py --FDRrange  1,2,3,4,5,6  --lbd-scale 1.95 --mod-choice 3 
 ```
  
-To make figure  2 (c)(d) in the paper, run 
+To make Figure  2 (c)(d) in the paper, run 
 ```
 python3  run_and_plot.py --FDRrange  5 --plot-style 2 --lbd-scale 1.95 --mod-choice 3 
 ```
  
-To make figure  2 (e)(f) in the paper, run 
+To make Figure  2 (e)(f) in the paper, run 
 ```
 python3  run_and_plot.py --FDRrange  6 --plot-style 2  --lbd-scale 1.95 --mod-choice 3 
 ```
 
-To make figure 3 (a)(b) in the paper, run
+To make Figure 3 (a)(b) in the paper, run
 ```
 python3  run_and_plot.py --FDRrange  1,2,3,4,5,6  --plot-style 0 --lbd-scale 1.95 --mod-choice 3 
 ```
 
-To make figure 4 (a)(b) in the paper, run
+To make Figure 4 (a)(b) in the paper, run
 ```
 python3  run_and_plot.py --FDRrange  5  --plot-style 4  --mod-choice 3 
 ```
 
-To make figure 4 (c)(d) in the paper, run
+To make Figure 4 (c)(d) in the paper, run
 ```
 python3  run_and_plot.py --FDRrange  6  --plot-style 4  --mod-choice 3 
 ```
 
-To make figure 5 (a)(b) in the paper, run
+To make Figure 5 (a)(b) in the paper, run
 ```
 python3  run_and_plot.py --FDRrange  5  --plot-style 3
 ```
 
-To make figure 5 (c)(d) in the paper, run
+To make Figure 5 (c)(d) in the paper, run
 ```
 python3  run_and_plot.py --FDRrange  6  --plot-style 3
 ```
