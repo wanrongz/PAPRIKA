@@ -25,7 +25,7 @@ The main file is run_and_plot.py. The experiments vary depending on the followin
 
 
 This code borrowed substantial parts from SAFFRON code available at: https://github.com/tijana-zrnic/SAFFRONcode.  
-Their code in turn relied heavily on code corresponding to the paper "Online control of the false discovery rate with decaying memory": https://github.com/fanny-yang/OnlineFDRCode
+Their code in turn relied heavily on code corresponding to the paper "Online control of the false discovery rate with decaying memory": https://github.com/fanny-yang/OnlineFDRCode.
 
 Examples:
 
