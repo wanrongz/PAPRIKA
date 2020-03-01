@@ -1,10 +1,12 @@
-# Readme
+# PAPRIKA: Private Online False Discovery Rate Control
+A Python implementation of [PAPRIKA: Private Online False Discovery Rate Control](https://arxiv.org/abs/2002.12321).
+
+Documentation
+===
 
 Plots saved as .pdf files in the folder "plots", data saved as .dat files in the folder "dat".
 
 Note that the plots may look different than the ones in the paper because the observations are randomly generated.
-
----
 
 The main file is `run_and_plot.py`. The experiments vary depending on the following passed arguments:  
 `--FDRrange` - integers encoding the choice of algorithms and parameters. 1 for SAFFRON, 2 for LORD, 3 for Alpha-investing, 4 for SAFFRON AI, 5 for PAPRIKA AI, 6 for PAPRIKA  
@@ -22,7 +24,6 @@ The main file is `run_and_plot.py`. The experiments vary depending on the follow
 `--shift`- shift magnitude c  
 `--shiftrange`- used for varying shift magnitude for private algorithms  
 `--lbdrange` - used for varying alternative signal in truncated exponential example  
-
 
 This code borrowed substantial parts from SAFFRON code available at: https://github.com/tijana-zrnic/SAFFRONcode.  
 Their code in turn relied heavily on code corresponding to the paper "Online control of the false discovery rate with decaying memory": https://github.com/fanny-yang/OnlineFDRCode.
@@ -83,3 +84,7 @@ To make Figure 5 (c)(d) in the paper, run
 ```
 python3  run_and_plot.py --FDRrange  6  --plot-style 3
 ```
+
+Reference
+===
+This repository is an implementation of our paper [PAPRIKA: Private Online False Discovery Rate Control](https://arxiv.org/abs/2002.12321), by [Wanrong Zhang](https://www.isye.gatech.edu/users/wanrong-zhang), [Gautam Kamath](http://www.gautamkamath.com/), and [Rachel Cummings](https://pwp.gatech.edu/rachel-cummings/).
