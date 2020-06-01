@@ -1,5 +1,5 @@
 # PAPRIKA: Private Online False Discovery Rate Control
-A Python implementation 
+A Python implementation of our paper PAPRIKA: Private Online False Discovery Rate Control
 
 Documentation
 ===
@@ -85,6 +85,4 @@ To make Figure 5 (c)(d) in the paper, run
 python3  run_and_plot.py --FDRrange  6  --plot-style 3
 ```
 
-Reference
-===
-This repository is an implementation of our paper [PAPRIKA: Private Online False Discovery Rate Control](https://arxiv.org/abs/2002.12321), by [Wanrong Zhang](https://wanrongz.github.io), [Gautam Kamath](http://www.gautamkamath.com/), and [Rachel Cummings](https://pwp.gatech.edu/rachel-cummings/).
+
