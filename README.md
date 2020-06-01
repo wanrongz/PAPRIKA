@@ -1,6 +1,5 @@
 # PAPRIKA: Private Online False Discovery Rate Control
 A Python implementation 
-# of [PAPRIKA: Private Online False Discovery Rate Control](https://arxiv.org/abs/2002.12321).
 
 Documentation
 ===
