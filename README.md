@@ -85,4 +85,15 @@ To make Figure 5 (c)(d) in the paper, run
 python3  run_and_plot.py --FDRrange  6  --plot-style 3
 ```
 
+### Bibliographic Information
+
+If you use our code or paper, we ask that you please cite:
+```
+@article{ZhangKC20,
+  title         = {PAPRIKA: Private Online False Discovery Rate Control},
+  author        = {Zhang, Wanrong and Kamath, Gautam and Cummings, Rachel},
+  journal       = {arXiv preprint arXiv:2002.12321},
+  year          = {2020}
+}
+```
 
